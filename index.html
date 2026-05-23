@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="이상민(Lee Sangmin)의 개인 홈페이지입니다.">
+    <title>Lee Sangmin | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <!-- FontAwesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="background-animation">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+        <div class="blob blob-3"></div>
+    </div>
+
+    <nav class="navbar">
+        <div class="logo">LSM.</div>
+        <ul class="nav-links">
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main class="container">
+        <section id="home" class="hero section">
+            <div class="glass-card main-card">
+                <div class="profile-header">
+                    <div class="profile-img-placeholder">
+                        <i class="fa-solid fa-graduation-cap"></i>
+                    </div>
+                    <h1>Hello, I'm <span class="highlight">Lee Sangmin</span></h1>
+                    <p class="subtitle">다이캐스팅 전문가 · 한성대학교 박사</p>
+                </div>
+                
+                <p class="bio">
+                    환영합니다! 다이캐스팅 공정 최적화 및 스마트 제조 분야를 연구하는 이상민입니다. 
+                    한성대학교에서 박사 학위를 취득하였으며, 데이터 기반의 현장 혁신과 공학적 문제 해결에 주력하고 있습니다.
+                </p>
+
+                <div class="action-buttons">
+                    <a href="#projects" class="btn primary-btn">View My Work</a>
+                    <a href="https://github.com/lsm727gmail" target="_blank" class="btn secondary-btn">
+                        <i class="fa-brands fa-github"></i> GitHub
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="section hidden">
+            <h2 class="section-title">About Me</h2>
+            <div class="glass-card about-card">
+                <div class="skills-container">
+                    <h3>Core Expertise</h3>
+                    <div class="skill-tags">
+                        <span class="tag">다이캐스팅 공정</span>
+                        <span class="tag">스마트 팩토리</span>
+                        <span class="tag">공정 최적화</span>
+                        <span class="tag">데이터 분석</span>
+                        <span class="tag">MES 구축</span>
+                        <span class="tag">품질 관리</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Lee Sangmin. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
