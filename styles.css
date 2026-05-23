@@ -340,3 +340,8 @@ footer {
     .action-buttons { flex-direction: column; }
     .glass-card { padding: 2rem; }
 }
+
+/* Board Section */
+.board-card { width: 100%; max-width: 900px; }
+.board-desc { text-align: center; color: var(--text-secondary); margin-bottom: 2rem; }
+.utterances-container { margin-top: 1rem; }
